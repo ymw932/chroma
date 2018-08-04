@@ -1,0 +1,49 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Header*/
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center:
+}
+
+.container {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e8e8e8;
+  border-radius: 15px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+}
+
+.logo h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*nav*/
+
+.pc ul li {
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block;
+  padding: 1.5rem;
+}
+
+.pc a:hover {
+  color: grey;
+}
